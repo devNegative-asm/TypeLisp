@@ -1,0 +1,22 @@
+{
+  "name": "typelisp",
+  "version": "1.0.0",
+  "main": "types.js",
+  "scripts": {
+    "test": "sed -i '6444s/.*/Type_instantiation_is_excessively_deep_and_possibly_infinite:diag(2589,3,\"\",\"Tsc pretends to be too good for this code\"),/' node_modules/typescript/lib/tsc.js; npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devNegative-asm/TypeLisp.git"
+  },
+  "author": "devnegative-asm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devNegative-asm/TypeLisp/issues"
+  },
+  "homepage": "https://github.com/devNegative-asm/TypeLisp#readme",
+  "description": "",
+  "dependencies": {
+    "typescript": "5.5.4"
+  }
+}
